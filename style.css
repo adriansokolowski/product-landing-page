@@ -19,13 +19,19 @@ a {
 }
 
 #header {
+    display: flex;
     position: fixed;
     top: 0;
-    display: flex;
     justify-content: space-between;
     width: 100%;
-    background: #fec949;
+    background-color: #fec949;
     z-index: 1;
+}
+
+@media (max-width: 600px) {
+    #header {
+        flex-wrap: wrap;
+    }
 }
 
 .wrapper {
@@ -149,4 +155,38 @@ a {
     background: whitesmoke;
     font-size: 2rem;
     padding: 1.5rem;
+}
+
+@media (max-width: 650px){
+
+    .wrapper {
+        margin: 0 1rem;
+    }
+    #nav-bar ul {
+        display: block;
+    }
+    #nav-bar ul li {
+        padding: 1.5rem;
+    }
+
+    #newsletter {
+        padding-top: 20rem;
+    }
+
+    .row {
+        grid-template-columns: 1fr;
+    }
+
+    .features-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .desc {
+        text-align: center;
+    }
+
+    .pricing-grid {
+        grid-template-columns: 1fr;
+    }
+
 }
