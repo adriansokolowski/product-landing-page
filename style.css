@@ -56,11 +56,6 @@ html {
     grid-gap: 2rem;
 }
 
-#features {
-    background-color: #d4dee7;
-    font-size: 2.5rem;
-}
-
 #form {
     font-size: 2rem;
 }
@@ -81,6 +76,12 @@ html {
     margin-top: 1.5rem;
 }
 
+#features {
+    background-color: #d4dee7;
+    font-size: 2.5rem;
+    margin: 2rem 0;
+}
+
 .features-grid {
     display: grid;
     grid-template-columns: 1fr 5fr;
@@ -92,4 +93,41 @@ html {
 
 .icon-img {
     max-height: 10rem;
+}
+
+.pricing-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2rem;
+    font-size: 2.5rem;
+}
+
+.product-top {
+    text-align: center;
+    background: #fec949;
+    padding: 2rem;
+}
+
+.product-description {
+    padding: 1.5rem;
+}
+
+.product-apply {
+    text-align: center;
+}
+
+.product-button {
+    font-size: 2.2rem;
+    background-color: #fec949;
+    padding: 1.5rem;
+    border: 0;
+    cursor: pointer;
+    margin-top: 1.5rem;
+}
+
+#footer {
+    background: whitesmoke;
+    font-size: 2rem;
+    margin-top: 2rem;
+    padding: 1.5rem;
 }
