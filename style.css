@@ -26,12 +26,11 @@ a {
     width: 100%;
     background-color: #fec949;
     z-index: 1;
+    padding: 0 5rem;
 }
 
-@media (max-width: 600px) {
-    #header {
-        flex-wrap: wrap;
-    }
+#header-img {
+    max-width: 21rem;
 }
 
 .wrapper {
@@ -157,7 +156,13 @@ a {
     padding: 1.5rem;
 }
 
-@media (max-width: 650px){
+@media (max-width: 955px){
+
+    #header {
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
 
     .wrapper {
         margin: 0 1rem;
