@@ -81,7 +81,7 @@ html {
     margin-top: 1.5rem;
 }
 
-.grid {
+.features-grid {
     display: grid;
     grid-template-columns: 1fr 5fr;
     justify-items: center;
